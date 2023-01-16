@@ -19,4 +19,14 @@ describe('kitchen sink-7', () => {
         })
     });
 
+    it('To find elements by their content', () => {
+        cy.get('#querying')
+          .contains('ul', 'oranges')
+          .should('have.class', 'query-list')
+
+        cy.get('.query-button')
+          .contains('Save Form')
+          .should('have.class', 'btn')
+    });
+
 })
