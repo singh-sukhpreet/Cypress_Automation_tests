@@ -1,5 +1,3 @@
-
-
 /// <reference types="cypress" />
 
 describe('kitchen sink-10', () => {
