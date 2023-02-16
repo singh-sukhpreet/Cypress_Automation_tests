@@ -6,7 +6,12 @@
   "dependencies": {
     "cypress": "^12.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-network-idle": "^1.11.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-wait-until": "1.7.2"
+  },
   "scripts": {
     "test": "node_modules\\.bin\\cypress run ",
     "cy:open": "cypress open --config-file ./cypress.config.js",
