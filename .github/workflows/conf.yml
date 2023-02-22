@@ -8,7 +8,7 @@ jobs:
   cypress-e2e-chrome81:
     name: Run on Chrome 81
     runs-on: ubuntu-18.04
-    container: cypress/browsers:node12.16.2-chrome81-ff75
+    container: cypress/browsers:node16.0.3-chrome81-ff75
     steps:
       - uses: actions/checkout@v2
 
