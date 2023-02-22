@@ -1,6 +1,10 @@
+/**
+ * 1. As a user, I can Clear local storage
+ * 2. As a user, I can Clear session storage
+ */
 /// <reference types="cypress" />
 
-describe('kitchen sink-2', () => {
+describe('kitchen sink-3', () => {
     const actualTitle = 'Cypress.io: Kitchen Sink'
 
     beforeEach(() => {

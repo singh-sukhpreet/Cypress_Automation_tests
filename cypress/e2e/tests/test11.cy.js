@@ -1,5 +1,8 @@
+/**
+ * 1. As a user, I can scroll till I find the element
+ */
 /// <reference types="cypress" />
-
+import selectors from './../../selectors/selectors.json'
 describe('infinite scroll', () => {
     
     let flag = true;
@@ -16,7 +19,7 @@ describe('infinite scroll', () => {
   
     it('As a user, I can infinite scroll', () => {
         
-            cy.get(".card-site__info strong a").then($button => {
+            cy.get(selectors.card).then($button => {
                 if ($button.text().includes('devonainteractive')){
                   flag = false
                 }

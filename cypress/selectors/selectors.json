@@ -1,0 +1,16 @@
+{
+    "actionFocusBtn": ".action-focus",
+    "actionBlur": ".action-blur",
+    "actionClear": ".action-clear",
+    "checkBox": ".action-checkboxes [type='checkbox']",
+    "dblClick": ".action-div",
+    "hiddenInput": ".action-input-hidden",
+    "rightClickBtn": ".rightclick-action-div",
+    "rightClickInput": ".rightclick-action-input-hidden",
+    "triggerRange": ".trigger-input-range",
+    "inputRange": "input[type=range]",
+    "hScroll": "#scroll-horizontal button",
+    "card": ".card-site__info strong a"
+
+
+}

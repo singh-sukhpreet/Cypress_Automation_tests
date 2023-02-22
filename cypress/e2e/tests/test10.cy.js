@@ -1,3 +1,6 @@
+/**
+ * 1. As a user, i can make an api request
+ */
 /// <reference types="cypress" />
 
 describe('kitchen sink-10', () => {
